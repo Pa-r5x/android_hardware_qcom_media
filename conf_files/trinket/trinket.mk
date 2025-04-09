@@ -11,6 +11,3 @@ PRODUCT_COPY_FILES += \
     $(CONFIG_PATH)/mediacodec-seccomp.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/mediacodec.policy \
     $(CONFIG_PATH)/system_properties.xml:$(TARGET_COPY_OUT_VENDOR)/etc/system_properties.xml \
     device/qcom/common/vendor/media/media_profiles.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml
-
-# Vendor property overrides
-    PRODUCT_PROPERTY_OVERRIDES += debug.stagefright.omx_default_rank=0
